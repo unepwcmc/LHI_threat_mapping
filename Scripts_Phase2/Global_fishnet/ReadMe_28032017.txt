@@ -1,0 +1,9 @@
+Written by BOC, 28th March 2017
+ 
+The 10km grid template for all subsequent gridding operations. 
+
+As this was a one-off analysis, this procedure was not scripted.
+
+This folder contains the "Protocol_trial" document which describes the process  to produce the 10km equal area grid. It is a bit lengthy (as different tools were explored to compare the results) but just skip to the Conclusions section if needing a quick overview. 
+
+The actual global fishnet can be found in the 'Equal_area_grid' sub-folder in the 'Global_data' folder

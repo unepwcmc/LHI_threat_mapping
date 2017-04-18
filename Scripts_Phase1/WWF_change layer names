@@ -1,0 +1,221 @@
+for layer in layers:
+    for PP in PP_list:
+                #Layer 1
+        if str(layer.name)  == str(PP).replace("_"," ") + " " + "Number of active mine facilities in 2008":
+            newname = "Number of active mine facilities in 2008" #str(PP).replace("_"," ") + " " + "Number of active mine facilities in 2008"
+            layer.name = newname
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+                #Layer 2
+        if layer.name  == str(PP).replace("_"," ") + " " + "Reservoir area (km2) in 2010":
+            newname = "Reservoir area (km2) in 2010"
+            layer.name = newname
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+                #Layer 3
+        if layer.name  == str(PP).replace("_"," ") + " " + "Number of armed conflicts (1997-2014)":
+            newname =  "Number of armed conflicts (1997-2014)"
+            layer.name = newname
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+#Layer 4
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Number of dams (2010)":
+            newname = "Number of dams (2010)"
+            layer.name = newname
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()   
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean barley production (tonnes)in 2000":
+            newname =  "Mean barley production (tonnes)in 2000"
+            layer.name = newname   
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean cassava production (tonnes)in 2000":
+            newname = "Mean cassava production (tonnes)in 2000"
+            layer.name = newname    
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+ 
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean cotton production (tonnes)in 2000":
+            newname ="Mean cotton production (tonnes)in 2000"
+            layer.name = newname    
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+    
+  
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean crop fraction (2005)":
+            newname =  "Mean crop fraction (2005)"
+            layer.name = newname    
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()   
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean cattle density (2006) in heads/km2":
+            newname = "Mean cattle density (2006) in heads/km2"
+            layer.name = newname    
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()   
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean chicken density (2006) in heads/km2":
+            newname =  "Mean chicken density (2006) in heads/km2"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()  
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean duck density (2006) in heads/km2":
+            newname ="Mean duck density (2006) in heads/km2"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC() 
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean goat density (2006) in heads/km2":
+            newname = "Mean goat density (2006) in heads/km2"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC() 
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean pig density (2006) in heads/km2":
+            newname =  "Mean pig density (2006) in heads/km2"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC() 
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean sheep density (2006) in heads/km2":
+            newname =  "Mean sheep density (2006) in heads/km2"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC() 
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean groundnut production (tonnes)in 2000":
+            newname =  "Mean groundnut production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+ 
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean millet production (tonnes)in 2000":
+            newname = "Mean millet production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+        if layer.name  == str(PP) + "Mean maize production (tonnes)in 2000":
+            newname = "Mean maize production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Excess nitrogen application (kg)in 2000":
+            newname =  "Excess nitrogen application (kg)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean oilpalm production (tonnes)in 2000":
+            newname = "Mean oilpalm production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+ 
+        if layer.name  == str(PP).replace("_"," ") + " " + "Excess phosphorus application (kg)in 2000":
+            newname =  "Excess phosphorus application (kg)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean potato production (tonnes)in 2000":
+            newname =  "Mean potato production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean rice production (tonnes)in 2000":
+            newname =  "Mean rice production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean rye production (tonnes)in 2000":
+            newname = "Mean rye production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " +"Mean sorghum production (tonnes)in 2000":
+            newname =  "Mean sorghum production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " +"Mean soybean production (tonnes)in 2000":
+            newname =  "Mean soybean production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean sugarbeet production (tonnes)in 2000":
+            newname = "Mean sugarbeet production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " +"Mean sugarcane production (tonnes)in 2000":
+            newname =  "Mean sugarcane production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " +"Mean sunflower production (tonnes)in 2000":
+            newname = "Mean sunflower production (tonnes)in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean travel time (hours) in 2000":
+            newname = "Mean travel time (hours) in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean wheat production (tonnes) in 2000":
+            newname = "Mean wheat production (tonnes) in 2000"
+            layer.name = newname      
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+        if layer.name  == str(PP) + "Mean rapeseed production (tonnes)in 2000":
+            newname = "Mean rapeseed production (tonnes)in 2000"
+            layer.name = newname    
+#arcpy.RefreshActiveView()
+#arcpy.RefreshTOC()
+
+
+        if layer.name  == str(PP).replace("_"," ") + " " + "Mean road density (km/km2)1980-2010":
+            newname = "Mean road density (km/km2) 1980-2010"
+            layer.name = newname      
+arcpy.RefreshActiveView()
+arcpy.RefreshTOC()

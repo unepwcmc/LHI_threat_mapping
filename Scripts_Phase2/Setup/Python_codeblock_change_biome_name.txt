@@ -1,0 +1,31 @@
+def change_name(BIOME):
+    if BIOME==1:
+        return "Tropical Subtropical Moist Broadleaf Forests"
+    elif BIOME==2:
+        return "Tropical Subtropical Dry Broadleaf Forests"
+    elif BIOME==3:
+        return "Tropical Subtropical Coniferous Forests"    
+    elif BIOME==4:
+        return "Temperate Broadleaf  Mixed Forests"
+    elif BIOME==5:
+        return "Temperate Conifer Forests" 
+    elif BIOME==6:
+        return "Boreal Forests or Taiga" 
+    elif BIOME==7:
+        return "Tropical Subtropical Grasslands Savannas  Shrublands"
+    elif BIOME==8:
+        return "Temperate Grasslands Savannas  Shrublands" 
+    elif BIOME==9:
+        return "Flooded Grasslands  Savannas" 
+    elif BIOME==10:
+        return "Montane Grasslands  Shrublands" 
+    elif BIOME==11:
+        return "Tundra"
+    elif BIOME==12:
+        return "Mediterranean Forests Woodlands  Scrub"    
+    elif BIOME==13:
+        return "Deserts  Xeric Shrublands"  
+    elif BIOME==14:
+        return "Mangroves"  
+    else:
+        return ""
